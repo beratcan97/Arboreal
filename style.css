@@ -1,0 +1,51 @@
+main {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  header {
+    flex: 0 0 10%;
+    background: lightgreen;
+  }
+  nav {
+    background-color: green;
+  }
+  a {
+    display: block;
+    float: left;
+    color: darkcyan;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: darkgreen;
+  }
+  .logo {
+      width: 50px;
+      height: 50px;
+  }
+  section {
+    display: block;
+    flex: 0 0 auto;
+    padding: 1rem;
+  }
+  footer {
+    flex: 0 0 10%;
+    background: lightgreen;
+    padding: 3%;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  input {
+    margin-bottom: 1rem;
+  }
+  .button {
+    padding: 1rem;
+    background-color: lightgreen;
+  }
