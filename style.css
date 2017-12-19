@@ -187,4 +187,8 @@ footer {
        flex-direction: column;
        margin-right: 0rem;
      }
+     .main {
+      margin-left: 10%;
+      margin-right: 10%;
+     }
    }
