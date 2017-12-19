@@ -5,45 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Arboreal</title>
 </head>
 <body>
     <main>
         <header>
-            <p><img class="logo" src="logo.png" alt="logo">A workplace that is a alive create ideas that live on.</p>
-            <nav>
-                <a href="index.html">Mission</a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
                 <a href="pricing.html">Pricing</a>
                 <a href="themes.html">Themes</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
         </header>
         <section>
-            <h2>Contact form</h2>
-            <form action="ex.php" method="POST">
-                Namn: <br>
-                <input type="text" name="namn"><br>
-                Telefonnummer: <br>
-                <input type="tel" name="telefonnummer" placeholder="+46 +++++++++"><br>
-                Email: <br>
-                <input type="email" name="email" placeholder="example@hotmail.com"><br>
-                Företag: <br>
-                <input type="text" name="företag"><br>
-                Meddelande: <br>
-                <input type="text" name="meddelande"><br>
+            <div class="contactForm">
+                <img src="images/contact.jpg" alt="Typing image" class="contactImg">
+                <h2>Send us a message</h2>
+                <form action="ex.php" method="POST">
+                    <label for="name">Name: </label>
+                    <br>
+                    <input class="inputBox" type="text" id="name" name="name"><br>
+                    <label for="number">Number: </label>
+                    <br>
+                    <input class="inputBox" type="tel" id="number" name="number" placeholder="+46 +++++++++"><br>
+                    <label for="mail">Mail: </label>
+                    <br>
+                    <input class="inputBox" type="email" id="mail" name="mail" placeholder="example@hotmail.com"><br>
+                    <label for="company">Company: </label>
+                    <br>
+                    <input class="inputBox" type="text" id="company" name="company"><br>
+                    <label for="message">Message: </label>
+                    <br>
+                    <textarea class="inputBox" id="message" cols="20" rows ="10" name="message"></textarea><br>
 
-                <input class="button" type="submit" name="submit" value="Skicka">
-            </form>
+                    <input class="button" type="submit" name="submit" value="Send">
+                </form>
+            </div>
         </section>
         <footer>
-            <p>Contact information</p>
-            <ul>
-                <li>Birger Jarlsgatan 12</li>
-                <li>Stockholm</li>
-                <li>Tel: 08-56 57 30</li>
-                <li>Facebook: arboreal, Twitter: @arboreal</li>
-            </ul>
-        </footer>
-    </main>
-</body>
-</html>
+                <p>Contact information</p>
+                <ul class="footerUl">
+                    <div>
+                        <li>Birger Jarlsgatan 12</li>
+                        <li>Stockholm</li>
+                    </div>
+                    <div>
+                        <li><img  class="footLogo" src="images/phoneLogo.png" alt="Phone logo">Tel: 08-56 57 30</li>
+                        <li><a href="http://faceboook.com"><img class="footLogo" src="images/facebooklogo.png" alt="Facebook logo">Arboreal</a><a href="http://twitter.com"><img class="footLogo" src="images/twitterLogo.png" alt="Twitter logo"> @arboreal</a></li>
+                    </div>
+                </ul>
+            </footer>
+        </main>
+    </body>
+    </html>

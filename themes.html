@@ -5,51 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Arboreal</title>
 </head>
 <body>
     <main>
         <header>
-            <p><img class="logo" src="logo.png" alt="logo">A workplace that is a alive create ideas that live on.</p>
-            <nav>
-                <a href="index.html">Mission</a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
                 <a href="pricing.html">Pricing</a>
-                <a href="themes.html">Themes</a>
+                <a href="themes.html" class="active">Themes</a>
                 <a href="contact.html">Contact</a>
-            </nav>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
         </header>
         <section>
             <h1>Themes</h1>
-            <ul>
-                <li>
-                    <p><b>Aloha</b></p>
-                    <ul>
-                        <li>This rich theme includes exotic coconuts spilling all over the floor combined with palm trees that hang down and are always in the way of your daily workflow. This theme is very complicated, suitable for complex startups with a unclear monetizing strategy.</li>
-                    </ul>
-                </li>
-                <li>
-                    <p><b>Siberia</b></p>
-                    <ul>
-                        <li>Dead plants everywhere. Plants sprayed with white color to give that cold secluded look.</li>
-                    </ul>
-                </li>
-                <li>
-                    <p><b>Exotique Nørdic</b></p>
-                    <ul>
-                        <li>Everything is pine and spruce. Get that Norrlands inland-look in your office. Comes with a Christmas Decoration Extension Pack for the first 100 subscribers (Bears not included).</li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="themesContainer">
+                <div class="themeContainer">
+                    <img src="images/aloha.jpg" alt="Aloha nature" class="themesImg">
+                    <div class="themeTextContainer">
+                        <h1>Aloha</h1>
+                        <p>This rich theme includes exotic coconuts spilling all over the floor combined with palm trees that hang down and are always in the way of your daily workflow. This theme is very complicated, suitable for complex startups with a unclear monetizing strategy.</p>
+                    </div>
+                </div>
+                    
+                <div class="themeContainer">
+                    <img src="images/siberia.jpg" alt="Siberia nature" class="themesImg">
+                    <div class="themeTextContainer">
+                        <h1>Siberia</h1>
+                        <p>Dead plants everywhere. Plants sprayed with white color to give that cold secluded look.</p>
+                    </div>
+                </div>
+                
+                <div class="themeContainer">
+                    <img src="images/exotiquenordic.jpg" alt="Exotique Nørdic nature" class="themesImg">
+                    <div class="themeTextContainer">
+                        <h1>Exotique Nørdic</h1>
+                        <p>Everything is pine and spruce. Get that Norrlands inland-look in your office. Comes with a Christmas Decoration Extension Pack for the first 100 subscribers (Bears not included).</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <footer>
-            <p>Contact information</p>
-            <ul>
-                <li>Birger Jarlsgatan 12</li>
-                <li>Stockholm</li>
-                <li>Tel: 08-56 57 30</li>
-                <li>Facebook: arboreal, Twitter: @arboreal</li>
-            </ul>
-        </footer>
-    </main>
-</body>
-</html>
+                <p>Contact information</p>
+                <ul class="footerUl">
+                    <div>
+                        <li>Birger Jarlsgatan 12</li>
+                        <li>Stockholm</li>
+                    </div>
+                    <div>
+                        <li><img  class="footLogo" src="images/phoneLogo.png" alt="Phone logo">Tel: 08-56 57 30</li>
+                        <li><a href="http://faceboook.com"><img class="footLogo" src="images/facebooklogo.png" alt="Facebook logo">Arboreal</a><a href="http://twitter.com"><img class="footLogo" src="images/twitterLogo.png" alt="Twitter logo"> @arboreal</a></li>
+                    </div>
+                </ul>
+            </footer>
+        </main>
+    </body>
+    </html>

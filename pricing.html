@@ -5,58 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Arboreal</title>
 </head>
 <body>
     <main>
         <header>
-            <p><img class="logo" src="logo.png" alt="logo">A workplace that is a alive create ideas that live on.</p>
-            <nav>
-                <a href="index.html">Mission</a>
-                <a href="pricing.html">Pricing</a>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="pricing.html" class="active">Pricing</a>
                 <a href="themes.html">Themes</a>
                 <a href="contact.html">Contact</a>
-            </nav>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
         </header>
         <section>
-            <h1>Price</h1>
-            <table>
-                <tr>
-                    <th>Standard</th>
-                    <th>Premium</th>
-                    <th>Exclusive</th>
-                </tr>
-                <tr>
-                    <td>Watering not included</td>
-                    <td>Watering included</td>
-                    <td>Web-controlled automated watering system included</td>
-                </tr>
-                <tr>
-                    <td>No change of dead plants, monthly plant change</td>
-                    <td>Exchange of dead plants included, monthly plant change</td>
-                    <td>Change of dead plants included, weekly plant exchange</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>Surveillence system for every plant. 24/7 support for emergencies</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>Only locally grown plants. Exotic plants flown in by private jet</td>
-                </tr>
-            </table>
+            <div class="prisDivContainer">
+                <div class="prisDiv">
+                    <h1>Standard</h1>
+                        <hr>
+                    <p>Watering not included</p>
+                    <p>No change of dead plants, monthly plant change</p>
+                </div>
+                <div class="prisDiv">
+                    <h1>Premium</h1>
+                        <hr>
+                    <p>Watering not included</p>
+                    <p>Exchange of dead plants included, monthly plant change</p>
+                </div>
+                <div class="prisDiv">
+                    <h1>Exclusive</h1>
+                        <hr>
+                    <p>Web-controlled automated watering system included</p>
+                    <p>Change of dead plants included, weekly plant exchange</p>
+                    <p>Surveillence system for every plant. 24/7 support for emergencies</p>
+                    <p>Only locally grown plants. Exotic plants flown in by private jet</p>
+                </div>
+            </div>
         </section>
         <footer>
-            <p>Contact information</p>
-            <ul>
-                <li>Birger Jarlsgatan 12</li>
-                <li>Stockholm</li>
-                <li>Tel: 08-56 57 30</li>
-                <li>Facebook: arboreal, Twitter: @arboreal</li>
-            </ul>
-        </footer>
-    </main>
-</body>
-</html>
+                <p>Contact information</p>
+                <ul class="footerUl">
+                    <div>
+                        <li>Birger Jarlsgatan 12</li>
+                        <li>Stockholm</li>
+                    </div>
+                    <div>
+                        <li><img  class="footLogo" src="images/phoneLogo.png" alt="Phone logo">Tel: 08-56 57 30</li>
+                        <li><a href="http://faceboook.com"><img class="footLogo" src="images/facebooklogo.png" alt="Facebook logo">Arboreal</a><a href="http://twitter.com"><img class="footLogo" src="images/twitterLogo.png" alt="Twitter logo"> @arboreal</a></li>
+                    </div>
+                </ul>
+            </footer>
+        </main>
+    </body>
+    </html>
