@@ -39,7 +39,10 @@ footer {
     text-decoration: none;
     font-size: 17px;
   }
-  
+  .logo {
+    width: 1rem;
+    height: 1rem;
+  }
   .topnav a:hover {
     background-color: lightgreen;
     color: black;
@@ -55,7 +58,10 @@ footer {
   }
   
   /*          Content main         */
-
+a {
+  text-decoration: none;
+  color: white;
+}
 .footLogo {
   width: 50px;
   height: 50px;
@@ -109,8 +115,6 @@ footer {
   padding: 2rem;
 }
 /*          Contact          */
-.contactSection {
-}
 .contactForm {
   display: flex;
   flex-direction: column;
@@ -212,7 +216,5 @@ footer {
      }
      .themesImg {
        margin: 1rem;
-     }
-     .inputBox {
      }
    }
