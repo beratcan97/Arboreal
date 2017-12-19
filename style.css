@@ -109,10 +109,13 @@ footer {
   padding: 2rem;
 }
 /*          Contact          */
+.contactSection {
+}
 .contactForm {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: lightgreen;
   border: 1px solid black;
   padding: 1rem;
@@ -174,6 +177,9 @@ footer {
      width: 50%;
      height: 50%;
    }
+   .contactForm {
+     margin: 1rem;
+   }
   }  
    @media (max-width: 600px) {
      .footerUl {
@@ -203,5 +209,10 @@ footer {
      }
      h1 {
        margin: 1rem;
+     }
+     .themesImg {
+       margin: 1rem;
+     }
+     .inputBox {
      }
    }
