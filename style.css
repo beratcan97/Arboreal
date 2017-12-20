@@ -29,6 +29,9 @@ footer {
     overflow: hidden;
     background-color: green;
   }
+  h1 {
+    letter-spacing: 0.2em;
+  }
 /*          navbar          */  
   .topnav a {
     float: left;
@@ -61,6 +64,9 @@ footer {
   .sloganLogo {
     width: 2.5rem;
     height: 2.5rem;
+  }
+  .slogan {
+    font-style: oblique;
   }
   /*          Content main         */
 a {
@@ -185,6 +191,9 @@ a {
    }
    .contactForm {
      margin: 1rem;
+   }
+   .logoAndSloganContainer {
+     display: none;
    }
   }  
    @media (max-width: 600px) {
