@@ -47,16 +47,21 @@ footer {
     background-color: lightgreen;
     color: black;
   }
-  
   .active {
     background-color: green;
     color: white;
   }
-  
   .topnav .icon {
     display: none;
   }
-  
+  .logoAndSloganContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .sloganLogo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
   /*          Content main         */
 a {
   text-decoration: none;
@@ -71,9 +76,6 @@ a {
   justify-content: space-between;
   flex-direction: row;
 }
-
-/*          Content         */
-
 /*          Content         */
 .homeSection {
   display: flex;
@@ -123,7 +125,7 @@ a {
   background-color: lightgreen;
   border: 1px solid black;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   max-width: 20rem;
 }
 .contactImg {
