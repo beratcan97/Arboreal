@@ -25,5 +25,8 @@ Sidan är responsonsive och fungerar lika bra på 4k skärm som ganska små skä
   Jag har implementerat 2 olika media queries mindre än 1024px och mindre än 600px. Den första är för mellan stora skärman mindre än 1024px bred. Jag har valt just 1024px eftersom sidan just där börjar forlora kvalitet vid runt 1000px men jag ville få med ipad pro med 1024x1366px så slutligen bestämde jag mig föratt använda 1024px. 1024px är även ett bra val då de flesta tableter och mindre laptops har den skärm bredden t.ex. har ipad pro bredden 1024X1366px, ipad med retina skärm 768x1024px och ipad mini har lika många pixlar som ipad retina. 
   
   Min nästa breakpoint ligger vid 600px bred då lite mindre pixlar leder till att sidan deformeras och innehållet kolapsar. Just 600px bred tycker jag är den perfekta breakpointen då de flesta mobila enheter har mindre än 600px bred. Kort fattat inkluderar max 600px alla mobila enheter som t.ex. iphone 4,5,6,7,8 samt plus modelerna och nästan alla andra android mobiler.
+# Test
+  Tester är gjorda på olika webläsare i olika operativ system. Sidan just nu fungerar på mobila platformar (både android och ios) och även desktop operativ system som windows, apple os och ubuntu. De webläsare som blev testade är främst chrome,edge,firefox men även lite mindre använda webläsare som t.ex. internet explorer. 
+  Jag har även gjort tester på lite äldre browsers och sätt att websidan oftast fungera lika bra.
 # Fallback
   CSS autoprefixer använd från: https://autoprefixer.github.io/
