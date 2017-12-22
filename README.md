@@ -8,17 +8,17 @@ GitHub pages: https://beratcan97.github.io/arboreal/
 ## Output from CSS validator
   "This document validates as CSS level 3!"
 ## Feedback
-  Punkt 1: Använda gärna flera klasser i css. Ifall du vill lättre utöka stylingen på dom olika siderna.
-  Punkt 2: Försöka göra siten lite mer säljande, tänk, skulle du köpt en produkt från denna sida.
-  punkt 3: Använd label till ditt formulär, som rubriker till dina inputs. (Då kan du sätta for="" på din label, samt id="" på din input)
-  punkt 4: Du skulle kunna sätta tel, facebook och twitter i din footer till länkar.
-  punkt 5: Gör gärna sidan med ett och samma språk. Mitt förslag är att bara hålla sig till engelska.
+  * Använda gärna flera klasser i css. Ifall du vill lättre utöka stylingen på dom olika siderna.
+  * Försöka göra siten lite mer säljande, tänk, skulle du köpt en produkt från denna sida.
+  * Använd label till ditt formulär, som rubriker till dina inputs. (Då kan du sätta for="" på din label, samt id="" på din input)
+  * Du skulle kunna sätta tel, facebook och twitter i din footer till länkar.
+  * Gör gärna sidan med ett och samma språk. Mitt förslag är att bara hålla sig till engelska.
 ## Feedback svar
-  Punkt 1: Flera klasser använda för styling.
-  Punkt 2: Sidan är mer stylad med bland annat bilder och färger.
-  Punkt 3: Label är har använts på alla formulär.
-  Punkt 4: Tel, facebook och twitter har satts i footer med dessutomm logor.
-  Punkt 5: Hela sidan består av nu endast av engelska.
+  * Flera klasser använda för styling.
+  * Sidan är mer stylad med bland annat bilder och färger.
+  * Label är har använts på alla formulär.
+  * Tel, facebook och twitter har satts i footer med dessutomm logor.
+  * Hela sidan består av nu endast av engelska.
 ## Responsive
 Sidan är responsonsive och fungerar lika bra på 4k skärm som ganska små skärmar som t.ex. iphone 4. När jag designade sidan valde jag att bygga upp sidan i "multipage" d.v.s. en sidan som inte är single page. Andledningen till mitt val var på grund utav att jag tänkte på att utveckla sidan vidare med fler information och eventuellt en webshop. Sidans "section" del d.v.s. mittersta delen består av olika många delar på olika enheter och sidor t.ex. består sidan "Pricing" utav 3 vågrätta delar men på mobil versionen ändras dessa till lodrätta.
 
