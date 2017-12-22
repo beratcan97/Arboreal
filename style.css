@@ -304,3 +304,32 @@ a {
        margin: 1rem;
      }
    }
+   @supports not ((display: -webkit-box) or (display: flex)) {
+     body {
+       float: left;
+     }
+     main {
+       float: left;
+     }
+     .logoAndSloganContainer {
+      float: left;
+     }
+      .footerUl {
+        float: left;
+      }
+      .homeSection {
+        float: left;
+      }
+      .prisDivContainer {
+        float: left;
+      }
+      .themeContainer {
+        float: left;
+      }
+      .themeTextContainer {
+        float: left;
+      }
+      .contactForm {
+        float: left;
+      }
+    }
