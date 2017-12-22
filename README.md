@@ -26,10 +26,11 @@ Jag har implementerat 2 olika media queries mindre än 1024px och mindre än 600
 
 Min nästa breakpoint ligger vid 600px bred då lite mindre pixlar leder till att sidan deformeras och innehållet kollapsar. Just 600px bred tycker jag är den perfekta breakpointen då de flesta mobila enheter har mindre än 600px bred. Kort fattat inkluderar max 600px alla mobila enheter som t.ex. Iphone 4,5,6,7,8 samt plus modellerna och nästan alla andra android mobiler.
 ## Test
-  Tester är gjorda på olika webläsare i olika operativ system. Sidan just nu fungerar på mobila platformar (både android och ios) och även desktop operativ system som windows, apple os och ubuntu. De webläsare som blev testade är främst chrome,edge,firefox men även lite mindre använda webläsare som t.ex. internet explorer. 
-  Jag har även gjort tester på lite äldre browsers och sätt att websidan oftast fungera lika bra.
+  Tester är gjorda på olika webbläsare i olika operativ system. Sidan just nu fungerar på mobila plattformar (både android och Ios) och även desktop operativ system som Windows, Apple os och Ubuntu. De webbläsare som blev testade är främst Chrome, Edge, Firefox men även lite mindre använda webbläsare som t.ex. internet explorer. 
+  Jag har även gjort tester på lite äldre browsers och sätt att webbsidan oftast fungera lika bra.
 ## Prefix från
   CSS autoprefixer använd från: https://autoprefixer.github.io/
+  
   Jag har även tagit hjälp av: http://shouldiprefix.com/
 ## Feature queries
   Jag har använt mig utav featur queries för äldre webläsare som inte stödjer flex och som alternative til flex har jag använt float. Float är ett lite äldre element och stöds av de flesta browsers.
