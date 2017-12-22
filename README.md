@@ -29,4 +29,6 @@ Sidan är responsonsive och fungerar lika bra på 4k skärm som ganska små skä
   Tester är gjorda på olika webläsare i olika operativ system. Sidan just nu fungerar på mobila platformar (både android och ios) och även desktop operativ system som windows, apple os och ubuntu. De webläsare som blev testade är främst chrome,edge,firefox men även lite mindre använda webläsare som t.ex. internet explorer. 
   Jag har även gjort tester på lite äldre browsers och sätt att websidan oftast fungera lika bra.
 # Prefix från
-CSS autoprefixer använd från: https://autoprefixer.github.io/
+  CSS autoprefixer använd från: https://autoprefixer.github.io/
+# Feature queries
+  Jag har använt mig utav featur queries för äldre webläsare som inte stödjer flex och som alternative til flex har jag använt float. Float är ett lite äldre element och stöds av de flesta browsers.
