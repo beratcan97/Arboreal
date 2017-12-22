@@ -33,4 +33,4 @@ Min nästa breakpoint ligger vid 600px bred då lite mindre pixlar leder till at
   
   Jag har även tagit hjälp av: http://shouldiprefix.com/
 ## Feature queries
-  Jag har använt mig utav feature queries för äldre webbläsare som inte stödjer flex och som alternative til flex har jag använt float. Float är ett lite äldre element och stöds av de flesta browsers.
+  Jag har använt mig utav feature queries för äldre webbläsare som inte stödjer flex och som alternative til flex har jag använt float. Float är ett lite äldre element och stöds av de flesta browsers. Nackdelen är att supporten för @support inte är så stor med tanke på att @support kan räknas som ganska nytt.
